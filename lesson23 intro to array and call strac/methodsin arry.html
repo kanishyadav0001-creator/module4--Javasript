@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript Array Methods</h2>
+    <h2>join() methode joins array element into a string and the pop()</h2>
+    <p>The join() methode jion array element into a tring and the pop()</p>
+
+    <p id="myjoin"></p>
+    <p id="myfirstpop"></p>
+    <p id="mysecondpop"></p>
+    <script>
+        var fruits = ["banana","orange","apple","mango"];
+        document.getElementById("myjoin").innerHTML = fruits.join("*");
+        document.getElementById("myfirstpop").innerHTML = fruits.join("*");
+        fruits.pop();
+        document.getElementById("mysecondpop").innerhtml = fruits;
+    </script>
+</body>
+</html>
