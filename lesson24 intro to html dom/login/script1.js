@@ -33,6 +33,6 @@ document.getElementById("loginForm").onsubmit = validate;
 
 document.getElementById("email").oninput = () => validate;({preventDefault: () => {}});
 
-document.getElementById("password").oninput = () => validate;({preventDefault:() => {}})
+document.getElementById("password").oninput = () => validate;({preventDefault:() => {}});
 
-document.getElementById("age").oninputt = () => validate;({preventDefault:() =>{}})
+document.getElementById("age").oninputt = () => validate;({preventDefault:() =>{}});
